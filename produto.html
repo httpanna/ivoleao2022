@@ -3,16 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <title>Produtos - sorveteria</title>
+
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="produto.css">
     </head>
     <body>
         <header>
-            <h1><img src="logo.png"></h1>
-
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="produto.html">Produtos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+            <div class="caixa">
+                <h1><img src="logo.png"></h1>
+            
+                <nav>
+                    <ul class="navegacao">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produto.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>   
         </header>
+
+        <main>
+            <ul class="produtos">
+                <li>
+                    <h2>sorvete</h2>
+                    <img src="sorvete.jpg">
+                    <p class="produto-descricao">qualquer sabor de soverte, com cobertura e doces</p>
+                    <p class="produtos-preco">R$15,00</p>
+                </li>
+                <li>
+                    <h2>milk-shake</h2>
+                    <img src="milkshake.jpg">
+                    <p class="produto-descricao">milk-shake de todos os sabores</p>
+                    <p class="produtos-preco">R$20,00</p>
+                </li>
+                <li>
+                    <h2>açai</h2>
+                    <img src="acai.jpg">
+                    <p class="produto-descricao">açai com qualquer cobertura</p>
+                    <p class="produtos-preco">R$25,00</p>
+                </li>
+            </ul>
+        </main>
     </body>
+</html>
